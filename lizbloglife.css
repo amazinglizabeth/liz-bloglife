@@ -459,7 +459,7 @@ span{
   };
 
 
-  @media(min-width: 320px){
+  @media(min-width: 414px){
     .post1 > p{
       padding-left: 1px;
       padding-right:10px;
