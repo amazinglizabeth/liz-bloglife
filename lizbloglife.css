@@ -459,7 +459,7 @@ span{
   };
 
 
-  @media(min-width: 464px){
+  @media(max-width: 464px){
     .subscribeButton{
       top: 450px;
     }
