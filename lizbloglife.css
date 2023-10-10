@@ -87,7 +87,7 @@ font-size: 17px;
    left: 30px;
 }
 
-.page1 > button{
+.subscribeButton{
     position: absolute;
     padding: 16px 24px;
     top: 430px;
@@ -115,7 +115,7 @@ font-size: 17px;
 
 .rightside{
     flex-direction: column;
-    width: 30%;
+    width: 30% ;
     background-color: #e4e3e3;
     margin: 20px;
 }
@@ -233,13 +233,13 @@ span{
  }
 
  .post1 > p{
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 16px;
-    margin: 0px;
-    padding-left: 10px;
-   line-height: 23px;
- }
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0px;
+  padding-left: 10px;
+ line-height: 23px;
+}
 
  .advertisement{
     background-color: #000000;
@@ -317,8 +317,6 @@ span{
   .pictures{
     display: flex;
    width: 50%;
-   
-   
   }
 
   .pictures > img{
@@ -346,3 +344,137 @@ span{
     color: #ffffff;
   }
     
+  @media (max-width: 1224px){
+    .leftside{
+      width:60%;
+    }
+
+    .rightside{
+     width: 40%;
+    }
+    
+    .comment > p{
+      margin: 3px;
+      font-size:16px ;
+    }
+
+    p > i {
+      padding-right: 5px;
+    }
+
+    .comment > button{
+      margin-left: 195px;
+      font-size: 12px;
+    }
+
+    .post4 > p{
+      font-size: 14px;
+      width:80%;
+    }
+  
+    .post4 > input{
+      padding: 8px 20px;
+      margin-right: 15px;
+    }
+  }
+  @media (max-width: 912px){
+    .leftside{
+      width:60%;
+    }
+
+    .rightside{
+     width: 40%;
+    }
+    
+    .comment > p{
+      margin: 3px;
+      font-size:16px ;
+    }
+
+    p > i {
+      padding-right: 5px;
+    }
+
+    .comment > button{
+      margin-left: 80px;
+      font-size: 12px;
+    }
+  
+    .likeCount{
+      padding: 4px;
+    }
+   
+  button >span{
+     padding: 3px;
+      }
+
+  .post1 > p{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:10px;
+    }
+
+ .ad-text > h4{
+   margin-left: 10px;
+   font-size: 16px;
+   }
+  .ad-text > p{
+   margin-left: 10px;
+   margin-top: -10px;
+   font-size: 14px; 
+   line-height: 12px;
+   width: 65%;
+   }
+
+  .post3 > p{
+   width: 100%;
+   height: 210px;
+   padding-top: 80px;
+   margin-right: 30px;
+   }
+
+  .list > p{
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 5px;
+  }
+  .pictures{
+    display: flex;
+   width: 80%;
+   flex-direction: column;
+   margin-left: 5%;
+   margin-right: 5%;
+  }
+
+  .post4 > p{
+    font-size: 14px;
+    width:80%;
+  }
+
+  .post4 > input{
+    padding: 8px 20px;
+    margin-right: 15px;
+  }
+
+  };
+
+
+  @media(min-width: 320px){
+    .post1 > p{
+      padding-left: 1px;
+      padding-right:10px;
+    }
+    
+    .post3 > p{
+      width: 70%;
+    }
+    .pictures{
+      display: flex;
+     width: 50%;
+     flex-direction: column;
+    }
+    .post4 > input{
+      padding: 8px 15px;
+      margin-right: 15px;
+    }
+  }
