@@ -343,16 +343,30 @@ span{
     border: 1px solid rgb(235, 86, 86);
     color: #ffffff;
   }
-    
-  @media (max-width: 1224px){
-    .leftside{
-      width:60%;
-    }
 
-    .rightside{
-     width: 40%;
+  @media only screen and (max-width: 600px){
+    .subscribeButton{
+      position: absolute;
+      top: 500px;
     }
-    
+    .page1{
+      min-width: 100%;
+    }
+    .text2 > p{
+      font-size: 14px;
+    }
+    .page2{
+      display: grid;
+    }
+    .leftside{
+      width:100%;
+    }
+    .rightside{
+     width: 100%;
+    } 
+    .pic > img{
+      width: 100%;
+   }
     .comment > p{
       margin: 3px;
       font-size:16px ;
@@ -363,21 +377,20 @@ span{
     }
 
     .comment > button{
-      margin-left: 195px;
+      margin-left: 185px;
       font-size: 12px;
     }
-
-    .post4 > p{
-      font-size: 14px;
-      width:80%;
-    }
   
-    .post4 > input{
-      padding: 8px 20px;
-      margin-right: 15px;
+    .likeCount{
+      padding: 4px;
     }
+   
+  button >span{
+     padding: 3px;
+      }
   }
-  @media (max-width: 912px){
+
+  @media only screen and(max-width: 768px){
     .leftside{
       width:60%;
     }
@@ -457,36 +470,52 @@ span{
   }
 
   };
-
-
-  @media(max-width: 828px){
-    .subscribeButton{
-      top: 450px;
+    
+  @media (max-width: 1024px){
+    .page2{
+     width: 100%
     }
-
     .leftside{
-      width:50%;
+      width:60%;
     }
 
     .rightside{
-     width: 50%;
-    }
-
-    .post1 > p{
-      padding-left: 1px;
-      padding-right:10px;
+     width: 40%;
     }
     
-    .post3 > p{
-      width: 70%;
+    .comment > p{
+      margin: 3px;
+      font-size:16px ;
     }
-    .pictures{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
+
+    p > i {
+      padding-right: 5px;
     }
+
+    .comment > button{
+      margin-left: 195px;
+      font-size: 12px;
+    }
+
+    
+  .post3 > p{
+    width: 100%;
+    height: 210px;
+    padding-top: 80px;
+    margin-right: 30px;
+    }
+
+    .post4 > p{
+      font-size: 14px;
+      width:80%;
+    }
+  
     .post4 > input{
-      padding: 8px 15px;
+      padding: 8px 20px;
       margin-right: 15px;
     }
   }
+  
+
+
+  
