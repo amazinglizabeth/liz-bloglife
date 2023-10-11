@@ -345,6 +345,14 @@ span{
   }
 
   @media only screen and (max-width: 600px){
+    .menu > a{
+     margin-left: 7px;
+    }
+    
+    .fa-search {
+    right: 7px;
+    }
+    
     .subscribeButton{
       position: absolute;
       top: 500px;
